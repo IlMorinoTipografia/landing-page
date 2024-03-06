@@ -1,0 +1,44 @@
+.logo {
+
+    width: 200px;
+    
+
+}
+
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+}
+
+.container {
+    margin-top: 100px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+}
+
+.item{
+    background-color: chocolate;
+}
+
+.item-1{
+    background-color: blueviolet;
+    /* grid-area: row-start col-start row-end col-end */
+    
+}
+
+.item-2{
+    background-color: rgb(43, 150, 226);
+}
+
+
+
+.map{
+    width: 1fr;
+    height : 1fr;
+}
