@@ -16,7 +16,7 @@
     float:right;
     margin-top: 60px;
     margin-bottom: 0;
-    margin-right:1%;
+    margin-right:3%;
     text-align: right;
     color: black;
 }
@@ -38,7 +38,7 @@ body{
 .item{
     background-color: whitesmoke;
     text-align: center;
-    margin: 30px;
+    margin: 5%;
     border-radius: 10px;
     /* Getting all the items to stack with span */
     grid-column: span 5;
