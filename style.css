@@ -1,4 +1,4 @@
-.logo {
+.logo{
     width: 200px;
 }
 
@@ -8,21 +8,38 @@
     left: 0;
     width: 100%;
     padding: 10px;
-    background-color: red;
+    background-color: whitesmoke;
 }
 
-.container {
+.topright{
+    display:inline;
+    float:right;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-right:1%;
+    text-align: right;
+    color: black;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
     margin-top:100px;
     margin-left: 10%;
     margin-right:10%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 200px);
+    background-color: black;
 }
 
 .item{
-    background-color:rgb(41, 49, 51);
+    background-color: whitesmoke;
     text-align: center;
+    margin: 30px;
+    border-radius: 10px;
     /* Getting all the items to stack with span */
     grid-column: span 5;
     grid-row: span 2;
@@ -36,8 +53,18 @@
     padding-left:5%;
 }
 
-.item-2{
+.item-5{
+    /* Need space to fit the map*/
+    grid-row: span 4;
+}
 
+.item-6{
+    grid-row: span 4;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
 }
 
 .map{
