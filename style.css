@@ -39,11 +39,6 @@ body{
     /* Getting all the items to stack with span */
     grid-column: span 5;
     grid-row: span 2;
-    display:flex;
-}
-
-.item-text{
-    margin:auto;
 }
 
 .item-1{
@@ -69,8 +64,13 @@ body{
     height: 40px;
 }
 
+.title{
+    line-height: 0.3;
+}
+
 .map{
     border: 0;
+    margin-top: 10px;
     width: 80%;
     height : 300px;
 }
