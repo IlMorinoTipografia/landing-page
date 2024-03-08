@@ -15,7 +15,8 @@
 }
 
 body{
-    background-color: black;
+    background-image:linear-gradient(to right, #01adee , #ed008a , #fef101);
+    font-family: Courier;
 }
 
 .container{
@@ -25,7 +26,6 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: repeat(6, 200px);
-    background-color: black;
 }
 
 .item{
@@ -55,12 +55,17 @@ body{
 }
 
 .item-6{
+    /* To be like item 5 */
     grid-row: span 4;
 }
 
 .icon{
     width: 40px;
     height: 40px;
+}
+
+.title{
+    line-height: 0.3;
 }
 
 .map{
